@@ -20,10 +20,10 @@
 graph TD
     A[用户提问] --> B{主题解析}
     B --> F[分析主题，生成问题]
-    B --> C[SUB主题提取]
+    B --> C[次级主题提取]
     C --> D[混合迭代检索引擎]
     D --> E[多模型协作生成]
-    F --> G[结构化报告]
+    E --> G[结构化报告]
     
     style B fill:#4CAF50,stroke:#388E3C
     style D fill:#2196F3,stroke:#1565C0
