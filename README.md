@@ -1,7 +1,17 @@
-# Deep Researcher 工作流复现方案
+# Decision-helper 工作流方案
 
 ![Deep Researcher On Dify - Dify](https://github.com/user-attachments/assets/24df7ddb-6bdd-4b4a-9aa3-f7963f2c6f7f)
 
+
+
+
+
+
+
+
+
+
+# 原始架构
 ## 📖 概述
 本工作流基于Dify平台构建，复现了Deep Research的核心功能，通过整合多源检索（本地知识库+网络搜索）与多模型协作，可在5分钟内生成万字级结构化研究报告。系统采用模块化设计，支持灵活替换底层模型与数据源。
 
